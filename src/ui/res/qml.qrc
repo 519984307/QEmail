@@ -209,5 +209,6 @@
         <file>image/ic_folder.png</file>
         <file>layout/WindowColorPicker.qml</file>
         <file>component/CusComboBox.qml</file>
+        <file>layout/WindowMapDriver.qml</file>
     </qresource>
 </RCC>

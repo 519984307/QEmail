@@ -42,6 +42,7 @@ MainWindow::MainWindow(char *argv[]) {
 
   qmlRegisterType<LoginController>("Controller", 1, 0, "LoginController");
   qmlRegisterType<MainController>("Controller", 1, 0, "MainController");
+  qmlRegisterType<MapDriverController>("Controller", 1, 0, "MapDriverController");
 
   m_engine.setNetworkAccessManagerFactory(new MyNetworkAccessManagerFactory);
 }

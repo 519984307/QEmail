@@ -2,12 +2,14 @@
     BaseController.h
     LoginController.h
     MainController.h
+    MapDriverController.h
 )
 
 set(CONTROLLER_SRS
     BaseController.cpp
     LoginController.cpp
     MainController.cpp
+    MapDriverController.cpp
 )
 
 add_library(CONTROLLER ${CONTROLLER_HEADERS} ${CONTROLLER_SRS})

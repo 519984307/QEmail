@@ -10,7 +10,7 @@ CusWindow{
     visible: false
     Component.onCompleted: {
         R.init(app)
-        navigate(R.WINDOW_MAIN)
+        navigate(R.WINDOW_MAP_DRIVER)
     }
 
     function createComponent(path){
