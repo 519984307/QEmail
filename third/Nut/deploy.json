@@ -1,0 +1,11 @@
+{
+	"title": "QtNut",
+	"description": "Advanced, Powerful and easy to use ORM for Qt5.",
+	"modules": [ "QtNut" ],
+	"dependencies": [],
+	"excludes": [],
+	"license": {
+		"name": "LGPL-3",
+		"path": "LICENSE"
+	}
+}
